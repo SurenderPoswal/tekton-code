@@ -3,12 +3,12 @@ kind: Pod
 metadata:
   creationTimestamp: null
   labels:
-    run: test-pod
+    run: test-pod-demo
   name: test-pod
   namespace: tekton-demo
 spec:
   containers:
-  - image: _IMAGE_
+  - image: /sposwal/dd
     name: test-pod
     resources: {}
   dnsPolicy: ClusterFirst
