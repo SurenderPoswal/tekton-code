@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   creationTimestamp: null
   labels:
-    run: test-pod
+    run: test-pod-demo
   name: test-pod
   namespace: tekton-demo
 spec:
